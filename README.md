@@ -295,9 +295,9 @@ from flask import jsonify, Blueprint
 from datetime import datetime, timedelta
 from sqlalchemy import func, desc
 
-# Assuming these are your configured Flask app.py and SQLAlchemy models.py
-from app import db
-from models import Company, Warehouse, Product, Inventory, Supplier, InvChange, ProductType
+# Assuming these are your configured Flask app and SQLAlchemy models
+from your_app import db
+from your_models import Company, Warehouse, Product, Inventory, Supplier, InvChange, ProductType
 
 api_bp = Blueprint('api', __name__)
 
