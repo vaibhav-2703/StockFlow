@@ -35,9 +35,9 @@ from sqlalchemy.exc import IntegrityError, OperationalError
 from decimal import Decimal
 
 # Assuming 'app' is your Flask application instance and 'db' is your SQLAlchemy instance
-# from your_app import app, db
+from your_app import app, db
 # Assuming 'Product' and 'Inventory' are your SQLAlchemy models
-# from your_models import Product, Inventory
+from your_models import Product, Inventory
 
 @app.route('/api/products', methods=['POST'])
 def create_product():
